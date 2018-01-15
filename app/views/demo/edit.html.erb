@@ -1,3 +1,7 @@
-<%= form_for :record do |f| %>
-  <%= f.promethee :data, value: @data %>
-<% end %>
+<%= render 'application/header' %>
+<div class="container">
+  <%= form_for :record do |f| %>
+    <%= f.promethee :data, value: @data %>
+  <% end %>
+</div>
+<%= render 'application/footer' %>
