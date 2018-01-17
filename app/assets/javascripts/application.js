@@ -6,4 +6,4 @@
 //= require summernote
 //= require angular-summernote
 //= require promethee
-//= require promethee-editor
+//= require promethee-edit
