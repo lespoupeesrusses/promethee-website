@@ -8,8 +8,6 @@ gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'promethee'
 gem 'uglifier'
-gem 'therubyracer'
-gem 'ngannotate-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
