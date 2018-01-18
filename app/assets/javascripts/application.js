@@ -5,5 +5,3 @@
 //= require angular-animate
 //= require summernote
 //= require angular-summernote
-//= require promethee
-//= require promethee-edit
