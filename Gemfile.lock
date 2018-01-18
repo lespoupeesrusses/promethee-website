@@ -42,7 +42,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     angular-ui-tinymce-rails (0.1.1)
       rails (~> 5.1.4)
-    angular_rails_csrf (2.1.1)
+    angular_rails_csrf (3.0.0)
       railties (>= 3, < 5.2)
     angularjs-rails (1.6.8)
     arel (8.0.0)
@@ -99,7 +99,7 @@ GEM
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
     pg (0.21.0)
-    promethee (1.2.0)
+    promethee (1.2.2)
       angular-ui-tinymce-rails
       angular_rails_csrf
       angularjs-rails (~> 1.6.2)
