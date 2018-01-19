@@ -1,0 +1,6 @@
+<div>
+  <%= link_to 'Edit', edit_page_path(@page), class: 'btn btn-default' %>
+  <%= link_to 'Localize', page_localizations_path(@page), class: 'btn btn-default' %>
+  <hr>
+</div>
+<%= promethee @page.data %>

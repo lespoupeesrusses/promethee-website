@@ -6,8 +6,9 @@ gem 'rails', '~> 5.1.4'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
-gem 'promethee'
 gem 'uglifier'
+# gem 'promethee'
+gem 'promethee', path: '../promethee'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
