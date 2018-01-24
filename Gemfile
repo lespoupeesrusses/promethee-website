@@ -7,7 +7,7 @@ gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier'
-gem 'promethee', '~> 1.2.10'
+gem 'promethee', '~> 1.2.14'
 # gem 'promethee', path: '../promethee'
 
 group :development, :test do
