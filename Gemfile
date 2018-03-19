@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 
 ruby '2.4.2'
 
-gem 'rails', '~> 5.1.4'
-gem 'pg', '~> 0.18'
-gem 'puma', '~> 3.7'
-gem 'sass-rails', '~> 5.0'
+gem 'rails', '~> 5.1'
+gem 'pg', '~> 0.21'
+gem 'puma'
+gem 'sass-rails'
 gem 'uglifier'
-gem 'promethee', '~> 1.2.16'
+gem 'promethee'
 # gem 'promethee', path: '../promethee'
 
 group :development, :test do
