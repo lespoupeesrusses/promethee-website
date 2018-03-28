@@ -8,7 +8,6 @@ gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'promethee'
-# gem 'promethee', path: '../promethee'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
