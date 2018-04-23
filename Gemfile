@@ -7,7 +7,8 @@ gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
-gem 'promethee', path: '../promethee'
+gem 'promethee'
+# gem 'promethee', path: '../promethee'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
