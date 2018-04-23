@@ -10,7 +10,6 @@ class LocalizationsController < ApplicationController
 
   # GET /localizations/1
   def show
-    byebug
   end
 
   # GET /localizations/new

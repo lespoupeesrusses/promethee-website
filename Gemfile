@@ -7,7 +7,7 @@ gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
-gem 'promethee', path: '../promethee'
+gem 'promethee'
 gem "aws-sdk-s3", require: false
 gem "mini_magick"
 
