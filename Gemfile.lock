@@ -1,19 +1,4 @@
-<<<<<<< HEAD
-PATH
-  remote: ../promethee
-  specs:
-    promethee (1.4.0)
-      angularjs-rails (~> 1.6.2)
-      bootstrap-sass
-      font-awesome-rails
-      jquery-rails
-      jquery-ui-rails
-      mini_magick
-      rails (>= 5.2)
-      sass-rails
 
-=======
->>>>>>> 8f733e18ccd42c66c49e7f84868f6dc989ee7007
 GEM
   remote: https://rubygems.org/
   specs:
