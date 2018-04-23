@@ -5,3 +5,4 @@
 //= require angular-animate
 //= require summernote
 //= require angular-summernote
+//= require ui-sortable
