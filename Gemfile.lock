@@ -115,7 +115,7 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     pg (0.21.0)
-    promethee (1.4.1)
+    promethee (1.4.6)
       angularjs-rails (~> 1.6.2)
       bootstrap-sass
       font-awesome-rails
