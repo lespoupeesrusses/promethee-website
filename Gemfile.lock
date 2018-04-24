@@ -115,7 +115,7 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     pg (0.21.0)
-    promethee (1.4.0)
+    promethee (1.4.1)
       angularjs-rails (~> 1.6.2)
       bootstrap-sass
       font-awesome-rails
@@ -126,7 +126,7 @@ GEM
       sass-rails
     public_suffix (3.0.2)
     puma (3.11.4)
-    rack (2.0.4)
+    rack (2.0.5)
     rack-test (1.0.0)
       rack (>= 1.0, < 3)
     rails (5.2.0)
