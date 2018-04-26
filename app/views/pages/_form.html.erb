@@ -11,17 +11,6 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title, id: :page_title %>
-  </div>
+  <%= form.promethee :data, id: :page_data %>
 
-  <div class="field">
-    <%= form.label :data %>
-    <%= form.promethee :data, id: :page_data %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit 'Save', class: 'btn btn-default' %>
-  </div>
 <% end %>

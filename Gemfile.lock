@@ -46,10 +46,10 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     angularjs-rails (1.6.8)
     arel (9.0.0)
-    autoprefixer-rails (8.3.0)
+    autoprefixer-rails (8.3.0.1)
       execjs
-    aws-partitions (1.80.0)
-    aws-sdk-core (3.19.0)
+    aws-partitions (1.81.0)
+    aws-sdk-core (3.20.1)
       aws-partitions (~> 1.0)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
@@ -115,7 +115,7 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     pg (0.21.0)
-    promethee (1.4.9)
+    promethee (1.4.12)
       angularjs-rails (~> 1.6.2)
       bootstrap-sass
       font-awesome-rails

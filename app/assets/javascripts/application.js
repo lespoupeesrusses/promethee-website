@@ -2,4 +2,5 @@
 //= require jquery-ui
 //= require bootstrap
 //= require angular
-//= promethee
+//= require angular-animate
+//= require promethee
