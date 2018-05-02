@@ -4,4 +4,5 @@
 //= require angular
 //= require angular-animate
 //= require summernote/summernote
-//= promethee
+//= require activestorage
+//= require promethee

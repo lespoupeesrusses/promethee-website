@@ -8,9 +8,8 @@ gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'promethee'#, path: "../promethee"
-gem "aws-sdk-s3", require: false
-gem "mini_magick"
-
+gem 'aws-sdk-s3', require: false
+gem 'mini_magick'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
