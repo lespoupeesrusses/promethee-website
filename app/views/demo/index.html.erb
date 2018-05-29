@@ -23,7 +23,15 @@
     <h2>What does it do?</h2>
     <p>It builds responsive pages!</p>
 
-    <p>There are 2 parts: the editor, which lets you build the pages, and the renderer. The pages are stored as json data, which can easily be added to a model in rails, and saved via a regular form.</p>
+    <p>There are 3 parts to it: the editor, the translator and the renderer</p>
+    <h3>The editor</h3>
+    <p>It lets you build the pages using components and presets (on the left of the screen), you drop them on the page (in the middle of the screen) and you set the content in the inspector (on the right of the screen). The responsive preview lets you check live what the page will look like on a mobile, tablet or desktop. The pages are stored as json data, which can easily be added to a model in rails, and saved via a regular form.</p>
+
+    <h3>The translator</h3>
+    <p>It show you all the useful text data, so you can translate everything. Changes in the master are smartly impacted: changing the position of a component affects its position in the flow, but not its content. Adding some components just adds new things to be translated at the right place. Removing components removes their translation. Again, everything is stored as json data.</p>
+
+    <h3>The renderer</h3>
+    <p>It renders the page to html. It merges the master and the translation. It can easily be cached, for example in a Redis store.</p>
 
     <h2>How does it relate to existing&nbsp;solutions?</h2>
 
