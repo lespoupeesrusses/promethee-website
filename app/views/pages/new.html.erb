@@ -1,2 +1,17 @@
 <h1>New Page</h1>
-<%= render 'form', page: @page %>
+<%= form_with(model: @page, local: true) do |form| %>
+  <% if @page.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@page.errors.count, "error") %> prohibited this page from being saved:</h2>
+
+      <ul>
+      <% @page.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <%= form.promethee :data, id: :page_data %>
+
+<% end %>
