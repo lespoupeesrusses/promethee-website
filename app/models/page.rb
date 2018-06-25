@@ -11,6 +11,8 @@
 
 class Page < ApplicationRecord
   has_many :localizations
+
+  include PrometheeData
   
   def to_s
     "#{title.blank? ? 'Untitled page' : title}"

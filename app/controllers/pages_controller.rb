@@ -54,6 +54,6 @@ class PagesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def page_params
-      params.require(:page).permit(:title, :data).tap { |permitted| permitted[:data] = JSON.parse(params[:page][:data]) }
+      params.require(:page).permit(:title, :data)
     end
 end

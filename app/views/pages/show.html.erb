@@ -1,6 +1,18 @@
-<div class="buttons">
-  <%= link_to 'Edit', edit_page_path(@page), class: 'btn btn-default' %>
-  <%= link_to 'Localize', page_localizations_path(@page), class: 'btn btn-default' %>
+<div class="row">
+  <div class="col-md-2">
+    <h2>Actions</h2>
+    <%= link_to 'Edit', edit_page_path(@page), class: 'btn btn-default' %>
+    <%= link_to 'Localize', page_localizations_path(@page), class: 'btn btn-default' %>
+  </div>
+  <div class="col-md-2">
+    <h2>Texts</h2>
+    <p><strong>Title</strong> <%= @page.data_page_title %></p>
+    <p><strong>Description</strong> <%= @page.data_page_description %></p>
+  </div>
+  <div class="col-md-8">
+    <h2>Searchable</h2>
+    <%= @page.promethee_data_searchable %>
+  </div>
 </div>
 <hr>
 <%= promethee @page.data %>
