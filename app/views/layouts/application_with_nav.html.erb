@@ -12,8 +12,8 @@
     <%= favicon_link_tag 'icon-promethee.png' %>
   </head>
   <body>
-    <nav class="navbar navbar-fixed-top">
-      <div class="container-fluid">
+    <div class="container-fluid">
+      <nav class="navbar navbar-fixed-top">
         <%= link_to root_path do %>
           <%= image_tag 'logo-promethee-horizontal.svg', class: 'logo' %>
         <% end %>
@@ -33,12 +33,10 @@
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
-    <div class="container-fluid">
+      </nav>
       <% if notice %><p id="notice"><%= notice %></p><% end %>
       <%= yield %>
-      <footer>
+      <footer class="text-center">
         <div class="pull-right">Prométhée is crafted with <%= icon('fa', 'heart') %> by <a href="https://www.agencepoupeesrusses.com/">Les Poupées Russes</a></div>
         <div><a href="https://github.com/lespoupeesrusses/promethee">Fork on github</a></div>
       </footer>

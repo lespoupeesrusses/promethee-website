@@ -1,8 +1,9 @@
-//= require jquery
+//= require jquery3
 //= require jquery-ui
+//= require popper
 //= require bootstrap
 //= require angular
 //= require angular-animate
-//= require summernote/summernote
+//= require summernote/summernote-bs4
 //= require activestorage
 //= require promethee

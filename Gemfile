@@ -2,12 +2,13 @@ source 'https://rubygems.org'
 
 ruby '2.5.1'
 
-gem 'rails', '~> 5.2'
+gem 'rails', '5.2.1'
 gem 'pg', '~> 0.21'
 gem 'puma'
-gem 'sass-rails'
+gem 'sassc-rails'
 gem 'uglifier'
-gem 'promethee'#, path: "../promethee"
+gem 'bootstrap'
+gem 'promethee', path: "../promethee"
 gem 'aws-sdk-s3', require: false
 gem 'mini_magick'
 

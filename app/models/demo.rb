@@ -1,6 +1,6 @@
 class Demo
 
-  def self.data 
+  def self.data
     {
       "id": "ero342ezr",
       "type": "page",
@@ -47,7 +47,9 @@ class Demo
             "version": 1,
             "attributes": {
               "body": "<h3>PUCK</h3><p>How now, spirit! whither wander you?</p>",
-              "search": "PUCK How now, spirit! whither wander you? "
+              "search": "PUCK How now, spirit! whither wander you? ",
+              "size": 7,
+              "offset": 3
             }
           }, {
             "id": "10lebjl4j6",
@@ -74,13 +76,38 @@ class Demo
             "attributes": {
               "src": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
               "alt": "Wood",
-              "search": " Wood"
+              "search": " Wood",
+              "size": 7,
+              "offset": 3
             }
           }]
         }],
         "attributes": {
           "search": "PUCK How now, spirit! whither wander you?  Fairy Over hill, over dale,Thorough bush, thorough brier,Over park, over pale,Thorough flood, thorough fire,I do wander everywhere,Swifter than the moon's sphere;And I serve the fairy queen,To dew her orbs upon the green.The cowslips tall her pensioners be:In their gold coats spots you see;Those be rubies, fairy favours,In those freckles live their savours:I must go seek some dewdrops hereAnd hang a pearl in every cowslip's ear.Farewell, thou lob of spirits; I'll be gone:Our queen and all our elves come here anon.    Wood  "
         }
+      }, {
+        "type": "table",
+        "attributes": {
+          "head": [{
+            "searchable_text": "Column 1"
+          }, {
+            "searchable_text": "Column 2"
+          }, {
+            "searchable_text": "Column 3"
+          }],
+          "body": [
+            [{
+              "searchable_text": "Text 1"
+            }, {
+              "searchable_text": "Text 2"
+            }, {
+              "searchable_text": "Text 3"
+            }]
+          ],
+          "size": 7,
+          "offset": 3
+        },
+        "id": "c1e4b97a-e100-f056-8085-3d5cb41eab68"
       }, {
         "id": "13lebjl4j6",
         "type": "video",
