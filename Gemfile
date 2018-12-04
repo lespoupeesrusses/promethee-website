@@ -8,7 +8,7 @@ gem 'puma'
 gem 'sassc-rails'
 gem 'uglifier'
 gem 'bootstrap'
-gem 'promethee', path: "../promethee"
+gem 'promethee'#, path: "../promethee"
 gem 'aws-sdk-s3', require: false
 gem 'mini_magick'
 
