@@ -19,18 +19,28 @@
         <% end %>
         <div class="navbar-right">
           <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="dropdown-toggle" data-toggle="dropdown"><%= icon('fa', 'bars') %></a>
-              <ul class="dropdown-menu">
-                <li><%= link_to 'Home', root_path %></li>
-                <li><%= link_to 'Test the editor', demo_edit_path %></li>
-                <li><%= link_to 'See the result', demo_show_path %></li>
-                <li><%= link_to 'Test the localizer', demo_localize_path %></li>
-                <li><%= link_to 'See the localized result', demo_show_localized_path %></li>
-                <li><%= link_to 'See the data', demo_data_path %></li>
-                <li><%= link_to 'Try with your own pages', pages_path %></li>
-              </ul>
+            <li class="nav-item dropdown">
+              <button class="navbar-toggler"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#navbarContent"
+                      aria-controls="navbarSupportedContent1"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation">
+                <span class="dark-blue-text"><i class="fa fa-bars fa-1x"></i></span>
+              </button>
             </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav">
+            <li><%= link_to 'Home', root_path %></li>
+            <li><%= link_to 'Test the editor', demo_edit_path %></li>
+            <li><%= link_to 'See the result', demo_show_path %></li>
+            <li><%= link_to 'Test the localizer', demo_localize_path %></li>
+            <li><%= link_to 'See the localized result', demo_show_localized_path %></li>
+            <li><%= link_to 'See the data', demo_data_path %></li>
+            <li><%= link_to 'Try with your own pages', pages_path %></li>
           </ul>
         </div>
       </nav>
