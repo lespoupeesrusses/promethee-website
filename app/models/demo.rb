@@ -29,7 +29,7 @@ class Demo
           "search": "SCENE III. A wood near Athens. Enter, from opposite sides, a Fairy, and PUCK "
         }
       }, {
-        "id": "7lebjl4j6",
+        "id": "7lebzl4j6",
         "type": "row",
         "version": 1,
         "children": [{
@@ -177,7 +177,7 @@ class Demo
     }
   end
 
-  def self.localization 
+  def self.localization
     {
       version: 1,
       components: [
