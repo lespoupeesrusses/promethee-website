@@ -119,7 +119,7 @@ GEM
       mini_portile2 (~> 2.3.0)
     pg (0.21.0)
     popper_js (1.14.5)
-    promethee (1.11.14)
+    promethee (1.11.15)
       angularjs-rails (~> 1.6.2)
       font-awesome-sass
       jquery-rails
