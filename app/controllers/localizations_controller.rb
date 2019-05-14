@@ -1,11 +1,12 @@
 class LocalizationsController < ApplicationController
-  before_action :load_data
+  before_action :load_page
+  before_action :load_localization, only: [:show, :edit, :update, :destroy]
 
   layout 'application_with_nav'
 
   # GET /localizations
   def index
-    @localizations = Localization.all
+    @localizations = @page.localizations
   end
 
   # GET /localizations/1
@@ -14,7 +15,7 @@ class LocalizationsController < ApplicationController
 
   # GET /localizations/new
   def new
-    @localization = Localization.new page_id: params[:page_id]
+    @localization = @page.localizations.new
   end
 
   # GET /localizations/1/edit
@@ -23,7 +24,7 @@ class LocalizationsController < ApplicationController
 
   # POST /localizations
   def create
-    @localization = Localization.new(localization_params)
+    @localization = @page.localizations.new(localization_params)
 
     if @localization.save
       redirect_to [@page, @localization], notice: 'Localization was successfully created.'
@@ -49,9 +50,12 @@ class LocalizationsController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def load_data
-      @localization = Localization.find params[:id] if params.include? :id
+    def load_page
       @page = Page.find params[:page_id]
+    end
+
+    def load_localization
+      @localization = Localization.find params[:id] if params.include? :id
     end
 
     # Only allow a trusted parameter "white list" through.

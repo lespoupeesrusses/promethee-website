@@ -10,11 +10,25 @@
 #
 
 class Page < ApplicationRecord
+  include PrometheeData
+
   has_many :localizations
 
-  include PrometheeData
-  
+  before_save :sync_title_with_promethee_data
+
   def to_s
     "#{title.blank? ? 'Untitled page' : title}"
+  end
+
+  private
+
+  def sync_title_with_promethee_data
+    if data.blank? || data == "{}"
+      self.data = { type: 'page', id: SecureRandom.uuid, attributes: { 'searchable_title': title } }
+    elsif title_changed?
+      self.promethee_data_page_title = title
+    elsif data_changed?
+      self.title = promethee_data_page_title
+    end
   end
 end
