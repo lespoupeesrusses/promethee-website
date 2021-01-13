@@ -17,3 +17,6 @@ latest.dump
 
 # Ignore .DS_Store
 .DS_store
+
+# Ignore application configuration
+/config/application.yml

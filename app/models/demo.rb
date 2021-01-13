@@ -19,7 +19,7 @@ class Demo
             "image": {
               "type": "blob",
               "value": {
-                "id": "eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1d5b6cdbe47ed4a93e6108c57b0cd4a81c91f2e7",
+                "id": "eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBFZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--eae923eb2b418fc1faa01c643ce34f7f48e75ed2",
                 "name": "004_AP186992.jpg"
               },
               "searchable": false,
@@ -45,7 +45,7 @@ class Demo
           "attributes": {
             "body": {
               "type": "text",
-              "value": "<h1>\n<small>SCENE III.</small><br>A wood near Athens.</h1><h2>Enter, from opposite sides, a Fairy, and PUCK</h2>",
+              "value": "<h1>\n<small>SCENE III.</small><br>A wood near Athens.</h1><h2>Enter, from opposite sides, a Fairy, and Puck</h2>",
               "searchable": true,
               "translatable": true
             }
@@ -56,16 +56,37 @@ class Demo
           "type": "row",
           "children": [
             {
-              "id": "91855dce-ed23-b092-20f0-a05c9f9ad069",
+              "id": "5320bdec-2923-9cf3-6154-d9f203f75ee9",
               "type": "column",
               "children": [
                 {
-                  "id": "25100772-2c4a-742d-2ab1-905325954265",
-                  "type": "text",
+                  "id": "8321ce04-e0d5-e19d-14cc-315c39b3adac",
+                  "type": "image",
                   "attributes": {
-                    "body": {
-                      "type": "text",
-                      "value": "<h3>PUCK</h3><p>How now, spirit! whither wander you?</p>\n<h3>Fairy</h3><p>Over hill, over dale,<br>Thorough bush, thorough brier,<br>Over park, over pale,<br>Thorough flood, thorough fire,<br>I do wander everywhere,<br>Swifter than the moon's sphere;<br>And I serve the fairy queen,<br>To dew her orbs upon the green.<br>The cowslips tall her pensioners be:<br>In their gold coats spots you see;<br>Those be rubies, fairy favours,<br>In those freckles live their savours:<br>I must go seek some dewdrops here<br>And hang a pearl in every cowslip's ear.<br>Farewell, thou lob of spirits; I'll be gone:<br>Our queen and all our elves come here anon.</p>",
+                    "alt": {
+                      "type": "string",
+                      "value": "",
+                      "searchable": true,
+                      "translatable": true
+                    },
+                    "image": {
+                      "type": "blob",
+                      "value": {
+                        "id": "eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBFZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--eae923eb2b418fc1faa01c643ce34f7f48e75ed2",
+                        "name": "5ebe1d2fad5c0aa470dbbca8051c5375.jpg"
+                      },
+                      "searchable": false,
+                      "translatable": false
+                    },
+                    "title": {
+                      "type": "string",
+                      "value": "",
+                      "searchable": true,
+                      "translatable": true
+                    },
+                    "caption": {
+                      "type": "string",
+                      "value": "",
                       "searchable": true,
                       "translatable": true
                     }
@@ -75,7 +96,7 @@ class Demo
               "attributes": {
                 "size": {
                   "type": "integer",
-                  "value": 4,
+                  "value": 6,
                   "searchable": false,
                   "translatable": false
                 },
@@ -106,7 +127,7 @@ class Demo
                 },
                 "offset": {
                   "type": "integer",
-                  "value": 0,
+                  "value": 1,
                   "searchable": false,
                   "translatable": false
                 },
@@ -138,37 +159,16 @@ class Demo
               }
             },
             {
-              "id": "5320bdec-2923-9cf3-6154-d9f203f75ee9",
+              "id": "91855dce-ed23-b092-20f0-a05c9f9ad069",
               "type": "column",
               "children": [
                 {
-                  "id": "8321ce04-e0d5-e19d-14cc-315c39b3adac",
-                  "type": "image",
+                  "id": "25100772-2c4a-742d-2ab1-905325954265",
+                  "type": "text",
                   "attributes": {
-                    "alt": {
-                      "type": "string",
-                      "value": "",
-                      "searchable": true,
-                      "translatable": true
-                    },
-                    "image": {
-                      "type": "blob",
-                      "value": {
-                        "id": "eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--90faa4cce25f602427f228ae4391904731f9fc55",
-                        "name": "5ebe1d2fad5c0aa470dbbca8051c5375.jpg"
-                      },
-                      "searchable": false,
-                      "translatable": false
-                    },
-                    "title": {
-                      "type": "string",
-                      "value": "",
-                      "searchable": true,
-                      "translatable": true
-                    },
-                    "caption": {
-                      "type": "string",
-                      "value": "",
+                    "body": {
+                      "type": "text",
+                      "value": "<h3>Puck</h3><p>How now, spirit! whither wander you?</p>\n<h3>Fairy</h3><p>Over hill, over dale,<br>Thorough bush, thorough brier,<br>Over park, over pale,<br>Thorough flood, thorough fire,<br>I do wander everywhere,<br>Swifter than the moon's sphere;<br>And I serve the fairy queen,<br>To dew her orbs upon the green.<br>The cowslips tall her pensioners be:<br>In their gold coats spots you see;<br>Those be rubies, fairy favours,<br>In those freckles live their savours:<br>I must go seek some dewdrops here<br>And hang a pearl in every cowslip's ear.<br>Farewell, thou lob of spirits; I'll be gone:<br>Our queen and all our elves come here anon.</p>",
                       "searchable": true,
                       "translatable": true
                     }
@@ -178,7 +178,7 @@ class Demo
               "attributes": {
                 "size": {
                   "type": "integer",
-                  "value": 8,
+                  "value": 4,
                   "searchable": false,
                   "translatable": false
                 },
@@ -280,7 +280,7 @@ class Demo
       "attributes": {
         "title": {
           "type": "string",
-          "value": "New page",
+          "value": "A Midsummer Night's Dream",
           "searchable": true,
           "translatable": true
         },
@@ -319,16 +319,27 @@ class Demo
       version: 1,
       components: [
         {
-          id: 'ef2f3b09-8c17-b3cb-a942-2a0673a3229e',
-          type: 'text',
+          id: '5c73e574-5cea-3a6d-107e-8dc791502f45',
+          type: 'page',
           version: 1,
           master_version: 1,
           attributes: {
-            body: {
-              "value": '<h1><small>SCENE III.</small><br>Un bois près d’Athènes. Il fait nuit. La lune brille.</h1><h2>Une Fée entre par une porte et Puck par une autre.</h2>'
+            title: {
+              "value": 'Le Songe d\'une Nuit d\'Été'
             }
           }
         },
+          {
+            id: 'ef2f3b09-8c17-b3cb-a942-2a0673a3229e',
+            type: 'text',
+            version: 1,
+            master_version: 1,
+            attributes: {
+              body: {
+                "value": '<h1><small>SCENE III.</small><br>Un bois près d’Athènes. Il fait nuit. La lune brille.</h1><h2>Une Fée entre par une porte et Puck par une autre.</h2>'
+              }
+            }
+          },
         {
           id: '25100772-2c4a-742d-2ab1-905325954265',
           type: 'text',
