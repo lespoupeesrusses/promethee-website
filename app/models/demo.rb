@@ -2,177 +2,314 @@ class Demo
 
   def self.data
     {
-      "id": "ero342ezr",
+      "id": "5c73e574-5cea-3a6d-107e-8dc791502f45",
       "type": "page",
       "version": 1,
-      "children": [{
-        "id": "5lebjl4j6",
-        "type": "image",
-        "version": 1,
-        "attributes": {
-          "src": "https://images.unsplash.com/photo-1502919280275-1bed9aca68ab?auto=format&fit=crop&w=1500&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
-          "search": " ",
-          "items_per_line": 7,
-          "size": 7,
-          "offset": 3,
-          "blob": {
-            "id": 13,
-            "name": "john-westrock-638059-unsplash.jpg"
+      "children": [
+        {
+          "id": "8a485ff4-3506-4931-b4ed-4b458f8b45e8",
+          "type": "image",
+          "attributes": {
+            "alt": {
+              "type": "string",
+              "value": "",
+              "searchable": true,
+              "translatable": true
+            },
+            "image": {
+              "type": "blob",
+              "value": {
+                "id": "eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1d5b6cdbe47ed4a93e6108c57b0cd4a81c91f2e7",
+                "name": "004_AP186992.jpg"
+              },
+              "searchable": false,
+              "translatable": false
+            },
+            "title": {
+              "type": "string",
+              "value": "",
+              "searchable": true,
+              "translatable": true
+            },
+            "caption": {
+              "type": "string",
+              "value": "",
+              "searchable": true,
+              "translatable": true
+            }
+          }
+        },
+        {
+          "id": "ef2f3b09-8c17-b3cb-a942-2a0673a3229e",
+          "type": "text",
+          "attributes": {
+            "body": {
+              "type": "text",
+              "value": "<h1>\n<small>SCENE III.</small><br>A wood near Athens.</h1><h2>Enter, from opposite sides, a Fairy, and PUCK</h2>",
+              "searchable": true,
+              "translatable": true
+            }
+          }
+        },
+        {
+          "id": "2127dbd2-75fb-e019-cf34-5fdda128be37",
+          "type": "row",
+          "children": [
+            {
+              "id": "91855dce-ed23-b092-20f0-a05c9f9ad069",
+              "type": "column",
+              "children": [
+                {
+                  "id": "25100772-2c4a-742d-2ab1-905325954265",
+                  "type": "text",
+                  "attributes": {
+                    "body": {
+                      "type": "text",
+                      "value": "<h3>PUCK</h3><p>How now, spirit! whither wander you?</p>\n<h3>Fairy</h3><p>Over hill, over dale,<br>Thorough bush, thorough brier,<br>Over park, over pale,<br>Thorough flood, thorough fire,<br>I do wander everywhere,<br>Swifter than the moon's sphere;<br>And I serve the fairy queen,<br>To dew her orbs upon the green.<br>The cowslips tall her pensioners be:<br>In their gold coats spots you see;<br>Those be rubies, fairy favours,<br>In those freckles live their savours:<br>I must go seek some dewdrops here<br>And hang a pearl in every cowslip's ear.<br>Farewell, thou lob of spirits; I'll be gone:<br>Our queen and all our elves come here anon.</p>",
+                      "searchable": true,
+                      "translatable": true
+                    }
+                  }
+                }
+              ],
+              "attributes": {
+                "size": {
+                  "type": "integer",
+                  "value": 4,
+                  "searchable": false,
+                  "translatable": false
+                },
+                "mobile": {
+                  "type": "hash",
+                  "value": {
+                    "size": {
+                      "type": "integer",
+                      "value": 12,
+                      "searchable": false,
+                      "translatable": false
+                    },
+                    "offset": {
+                      "type": "integer",
+                      "value": 0,
+                      "searchable": false,
+                      "translatable": false
+                    },
+                    "enabled": {
+                      "type": "boolean",
+                      "value": false,
+                      "searchable": false,
+                      "translatable": false
+                    }
+                  },
+                  "searchable": false,
+                  "translatable": false
+                },
+                "offset": {
+                  "type": "integer",
+                  "value": 0,
+                  "searchable": false,
+                  "translatable": false
+                },
+                "tablet": {
+                  "type": "hash",
+                  "value": {
+                    "size": {
+                      "type": "integer",
+                      "value": 12,
+                      "searchable": false,
+                      "translatable": false
+                    },
+                    "offset": {
+                      "type": "integer",
+                      "value": 0,
+                      "searchable": false,
+                      "translatable": false
+                    },
+                    "enabled": {
+                      "type": "boolean",
+                      "value": false,
+                      "searchable": false,
+                      "translatable": false
+                    }
+                  },
+                  "searchable": false,
+                  "translatable": false
+                }
+              }
+            },
+            {
+              "id": "5320bdec-2923-9cf3-6154-d9f203f75ee9",
+              "type": "column",
+              "children": [
+                {
+                  "id": "8321ce04-e0d5-e19d-14cc-315c39b3adac",
+                  "type": "image",
+                  "attributes": {
+                    "alt": {
+                      "type": "string",
+                      "value": "",
+                      "searchable": true,
+                      "translatable": true
+                    },
+                    "image": {
+                      "type": "blob",
+                      "value": {
+                        "id": "eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--90faa4cce25f602427f228ae4391904731f9fc55",
+                        "name": "5ebe1d2fad5c0aa470dbbca8051c5375.jpg"
+                      },
+                      "searchable": false,
+                      "translatable": false
+                    },
+                    "title": {
+                      "type": "string",
+                      "value": "",
+                      "searchable": true,
+                      "translatable": true
+                    },
+                    "caption": {
+                      "type": "string",
+                      "value": "",
+                      "searchable": true,
+                      "translatable": true
+                    }
+                  }
+                }
+              ],
+              "attributes": {
+                "size": {
+                  "type": "integer",
+                  "value": 8,
+                  "searchable": false,
+                  "translatable": false
+                },
+                "mobile": {
+                  "type": "hash",
+                  "value": {
+                    "size": {
+                      "type": "integer",
+                      "value": 12,
+                      "searchable": false,
+                      "translatable": false
+                    },
+                    "offset": {
+                      "type": "integer",
+                      "value": 0,
+                      "searchable": false,
+                      "translatable": false
+                    },
+                    "enabled": {
+                      "type": "boolean",
+                      "value": false,
+                      "searchable": false,
+                      "translatable": false
+                    }
+                  },
+                  "searchable": false,
+                  "translatable": false
+                },
+                "offset": {
+                  "type": "integer",
+                  "value": 0,
+                  "searchable": false,
+                  "translatable": false
+                },
+                "tablet": {
+                  "type": "hash",
+                  "value": {
+                    "size": {
+                      "type": "integer",
+                      "value": 12,
+                      "searchable": false,
+                      "translatable": false
+                    },
+                    "offset": {
+                      "type": "integer",
+                      "value": 0,
+                      "searchable": false,
+                      "translatable": false
+                    },
+                    "enabled": {
+                      "type": "boolean",
+                      "value": false,
+                      "searchable": false,
+                      "translatable": false
+                    }
+                  },
+                  "searchable": false,
+                  "translatable": false
+                }
+              }
+            }
+          ],
+          "attributes": {
+            "bgcolor": {
+              "type": "color",
+              "value": "rgba(255,255,255,0)",
+              "searchable": false,
+              "translatable": false
+            },
+            "backgrounds": {
+              "type": "array",
+              "value": [
+
+              ],
+              "searchable": false,
+              "translatable": false
+            }
+          }
+        },
+        {
+          "id": "d3fab601-32ed-041f-efa7-59dd79b99314",
+          "type": "video",
+          "attributes": {
+            "url": {
+              "type": "string",
+              "value": "https://vimeo.com/155443762",
+              "searchable": false,
+              "translatable": true
+            },
+            "autoplay": {
+              "type": "boolean",
+              "value": false,
+              "searchable": false,
+              "translatable": false
+            }
           }
         }
-      }, {
-        "id": "6lebjl4j6",
-        "type": "text",
-        "version": 1,
-        "attributes": {
-          "body": "<h1><small>SCENE III.</small><br>A wood near Athens.</h1><h2>Enter, from opposite sides, a Fairy, and PUCK</h2>",
-          "search": "SCENE III. A wood near Athens. Enter, from opposite sides, a Fairy, and PUCK "
-        }
-      }, {
-        "id": "7lebzl4j6",
-        "type": "row",
-        "version": 1,
-        "children": [{
-          "id": "8lebjl4j6",
-          "type": "column",
-          "version": 1,
-          "attributes": {
-            "size": 5,
-            "offset": 0,
-            "search": "PUCK How now, spirit! whither wander you?  Fairy Over hill, over dale,Thorough bush, thorough brier,Over park, over pale,Thorough flood, thorough fire,I do wander everywhere,Swifter than the moon's sphere;And I serve the fairy queen,To dew her orbs upon the green.The cowslips tall her pensioners be:In their gold coats spots you see;Those be rubies, fairy favours,In those freckles live their savours:I must go seek some dewdrops hereAnd hang a pearl in every cowslip's ear.Farewell, thou lob of spirits; I'll be gone:Our queen and all our elves come here anon.  "
-          },
-          "children": [{
-            "id": "9lebjl4j6",
-            "type": "text",
-            "version": 1,
-            "attributes": {
-              "body": "<h3>PUCK</h3><p>How now, spirit! whither wander you?</p>",
-              "search": "PUCK How now, spirit! whither wander you? ",
-              "size": 7,
-              "offset": 3
-            }
-          }, {
-            "id": "10lebjl4j6",
-            "type": "text",
-            "version": 1,
-            "attributes": {
-              "body": "<h3>Fairy</h3><p>Over hill, over dale,<br>Thorough bush, thorough brier,<br>Over park, over pale,<br>Thorough flood, thorough fire,<br>I do wander everywhere,<br>Swifter than the moon's sphere;<br>And I serve the fairy queen,<br>To dew her orbs upon the green.<br>The cowslips tall her pensioners be:<br>In their gold coats spots you see;<br>Those be rubies, fairy favours,<br>In those freckles live their savours:<br>I must go seek some dewdrops here<br>And hang a pearl in every cowslip's ear.<br>Farewell, thou lob of spirits; I'll be gone:<br>Our queen and all our elves come here anon.</p>",
-              "search": "Fairy Over hill, over dale,Thorough bush, thorough brier,Over park, over pale,Thorough flood, thorough fire,I do wander everywhere,Swifter than the moon's sphere;And I serve the fairy queen,To dew her orbs upon the green.The cowslips tall her pensioners be:In their gold coats spots you see;Those be rubies, fairy favours,In those freckles live their savours:I must go seek some dewdrops hereAnd hang a pearl in every cowslip's ear.Farewell, thou lob of spirits; I'll be gone:Our queen and all our elves come here anon. "
-            }
-          }]
-        }, {
-          "id": "11lebjl4j6",
-          "type": "column",
-          "version": 1,
-          "attributes": {
-            "size": 7,
-            "offset": 0,
-            "search": " Wood "
-          },
-          "children": [{
-            "id": "12lebjl4j6",
-            "type": "image",
-            "version": 1,
-            "attributes": {
-              "src": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
-              "alt": "Wood",
-              "search": " Wood",
-              "size": 7,
-              "offset": 3
-            }
-          }]
-        }],
-        "attributes": {
-          "search": "PUCK How now, spirit! whither wander you?  Fairy Over hill, over dale,Thorough bush, thorough brier,Over park, over pale,Thorough flood, thorough fire,I do wander everywhere,Swifter than the moon's sphere;And I serve the fairy queen,To dew her orbs upon the green.The cowslips tall her pensioners be:In their gold coats spots you see;Those be rubies, fairy favours,In those freckles live their savours:I must go seek some dewdrops hereAnd hang a pearl in every cowslip's ear.Farewell, thou lob of spirits; I'll be gone:Our queen and all our elves come here anon.    Wood  "
-        }
-      }, {
-        "type": "table",
-        "attributes": {
-          "head": [{
-            "searchable_text": "Column 1"
-          }, {
-            "searchable_text": "Column 2"
-          }, {
-            "searchable_text": "Column 3"
-          }],
-          "body": [
-            [{
-              "searchable_text": "Text 1"
-            }, {
-              "searchable_text": "Text 2"
-            }, {
-              "searchable_text": "Text 3"
-            }]
-          ],
-          "size": 7,
-          "offset": 3
-        },
-        "id": "c1e4b97a-e100-f056-8085-3d5cb41eab68"
-      }, {
-        "id": "13lebjl4j6",
-        "type": "video",
-        "version": 1,
-        "attributes": {
-          "url": "https://vimeo.com/155443762"
-        }
-      }, {
-        "id": "14lebjl4j6",
-        "type": "row",
-        "version": 1,
-        "children": [{
-          "id": "15lebjl4j6",
-          "type": "column",
-          "version": 1,
-          "attributes": {
-            "size": 7,
-            "offset": 0,
-            "search": " Night "
-          },
-          "children": [{
-            "id": "16lebjl4j6",
-            "type": "image",
-            "version": 1,
-            "attributes": {
-              "src": "https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?auto=format&fit=crop&w=721&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
-              "alt": "Night",
-              "search": " Night"
-            }
-          }]
-        }, {
-          "id": "17lebjl4j6",
-          "type": "column",
-          "version": 1,
-          "attributes": {
-            "size": 5,
-            "offset": 0,
-            "search": "PUCK The king doth keep his revels here to-night:Take heed the queen come not within his sight;For Oberon is passing fell and wrath,Because that she as her attendant hathA lovely boy, stolen from an Indian king;She never had so sweet a changeling;And jealous Oberon would have the childKnight of his train, to trace the forests wild;But she perforce withholds the loved boy,Crowns him with flowers and makes him all her joy:And now they never meet in grove or green,By fountain clear, or spangled starlight sheen,But, they do square, that all their elves for fearCreep into acorn-cups and hide them there.  "
-          },
-          "children": [{
-            "id": "18lebjl4j6",
-            "type": "text",
-            "version": 1,
-            "attributes": {
-              "body": "<h3>PUCK</h3><p>The king doth keep his revels here to-night:<br>Take heed the queen come not within his sight;<br>For Oberon is passing fell and wrath,<br>Because that she as her attendant hath<br>A lovely boy, stolen from an Indian king;<br>She never had so sweet a changeling;<br>And jealous Oberon would have the child<br>Knight of his train, to trace the forests wild;<br>But she perforce withholds the loved boy,<br>Crowns him with flowers and makes him all her joy:<br>And now they never meet in grove or green,<br>By fountain clear, or spangled starlight sheen,<br>But, they do square, that all their elves for fear<br>Creep into acorn-cups and hide them there.</p>",
-              "search": "PUCK The king doth keep his revels here to-night:Take heed the queen come not within his sight;For Oberon is passing fell and wrath,Because that she as her attendant hathA lovely boy, stolen from an Indian king;She never had so sweet a changeling;And jealous Oberon would have the childKnight of his train, to trace the forests wild;But she perforce withholds the loved boy,Crowns him with flowers and makes him all her joy:And now they never meet in grove or green,By fountain clear, or spangled starlight sheen,But, they do square, that all their elves for fearCreep into acorn-cups and hide them there. "
-            }
-          }]
-        }],
-        "attributes": {
-          "search": " Night  PUCK The king doth keep his revels here to-night:Take heed the queen come not within his sight;For Oberon is passing fell and wrath,Because that she as her attendant hathA lovely boy, stolen from an Indian king;She never had so sweet a changeling;And jealous Oberon would have the childKnight of his train, to trace the forests wild;But she perforce withholds the loved boy,Crowns him with flowers and makes him all her joy:And now they never meet in grove or green,By fountain clear, or spangled starlight sheen,But, they do square, that all their elves for fearCreep into acorn-cups and hide them there.   "
-        }
-      }, {
-        "id": "19lebjl4j6",
-        "type": "video",
-        "version": 1,
-        "attributes": {
-          "url": "https://www.youtube.com/watch?v=O7EeES8u6QE"
-        }
-      }],
+      ],
       "attributes": {
-        "items_per_line": 7,
-        "size": 7,
-        "offset": 5,
-        "search": "  SCENE III. A wood near Athens. Enter, from opposite sides, a Fairy, and PUCK  PUCK How now, spirit! whither wander you?  Fairy Over hill, over dale,Thorough bush, thorough brier,Over park, over pale,Thorough flood, thorough fire,I do wander everywhere,Swifter than the moon's sphere;And I serve the fairy queen,To dew her orbs upon the green.The cowslips tall her pensioners be:In their gold coats spots you see;Those be rubies, fairy favours,In those freckles live their savours:I must go seek some dewdrops hereAnd hang a pearl in every cowslip's ear.Farewell, thou lob of spirits; I'll be gone:Our queen and all our elves come here anon.    Wood    Night  PUCK The king doth keep his revels here to-night:Take heed the queen come not within his sight;For Oberon is passing fell and wrath,Because that she as her attendant hathA lovely boy, stolen from an Indian king;She never had so sweet a changeling;And jealous Oberon would have the childKnight of his train, to trace the forests wild;But she perforce withholds the loved boy,Crowns him with flowers and makes him all her joy:And now they never meet in grove or green,By fountain clear, or spangled starlight sheen,But, they do square, that all their elves for fearCreep into acorn-cups and hide them there.    "
+        "title": {
+          "type": "string",
+          "value": "New page",
+          "searchable": true,
+          "translatable": true
+        },
+        "thumbnail": {
+          "type": "blob",
+          "value": {
+            "name": ""
+          },
+          "searchable": false,
+          "translatable": false
+        },
+        "description": {
+          "type": "text",
+          "value": "",
+          "searchable": true,
+          "translatable": true
+        },
+        "javascripts": {
+          "type": "string",
+          "value": "",
+          "searchable": false,
+          "translatable": false
+        },
+        "stylesheets": {
+          "type": "string",
+          "value": "",
+          "searchable": false,
+          "translatable": false
+        }
       }
     }
   end
@@ -182,39 +319,25 @@ class Demo
       version: 1,
       components: [
         {
-          id: '6lebjl4j6',
+          id: 'ef2f3b09-8c17-b3cb-a942-2a0673a3229e',
           type: 'text',
           version: 1,
           master_version: 1,
           attributes: {
-            body: '<h1><small>SCENE III.</small><br>Un bois près d’Athènes. Il fait nuit. La lune brille.</h1><h2>Une Fée entre par une porte et Puck par une autre.</h2>'
+            body: {
+              "value": '<h1><small>SCENE III.</small><br>Un bois près d’Athènes. Il fait nuit. La lune brille.</h1><h2>Une Fée entre par une porte et Puck par une autre.</h2>'
+            }
           }
         },
         {
-          id: '9lebjl4j6',
+          id: '25100772-2c4a-742d-2ab1-905325954265',
           type: 'text',
           version: 1,
           master_version: 1,
           attributes: {
-            body: '<h3>PUCK</h3><p>Eh bien ! esprit, où errez-vous ainsi ?</p>'
-          }
-        },
-        {
-          id: '10lebjl4j6',
-          type: 'text',
-          version: 1,
-          master_version: 1,
-          attributes: {
-            body: '<h3>LA FÉE</h3><p>Par la colline, par la vallée, <br>à travers les buissons, à travers les ronces, <br>par les parcs, par les haies, <br>à travers l’eau, à travers le feu, <br>j’erre en tous lieux, <br>plus rapide que la sphère de la lune. <br>Je sers la reine des fées, <br>et j’humecte les cercles qu’elle trace sur le gazon. <br>Les primevères les plus hautes sont ses pensionnaires. <br>Vous voyez des taches sur leurs robes d’or : <br>ce sont les rubis, les bijoux de la fée, <br>taches de rousseur d’où s’exhale leur senteur. <br>Il faut maintenant que j’aille chercher des gouttes de rosée, <br>pour suspendre une perle à chaque oreille d’ours. <br>Adieu, toi, bouffon des esprits, je vais partir. <br>Notre reine et tous ses elfes viendront ici tout à l’heure.</p>'
-          }
-        },
-        {
-          id: '18lebjl4j6',
-          type: 'text',
-          version: 1,
-          master_version: 1,
-          attributes: {
-            body: '<h3>PUCK</h3><p>Le roi donne ici ses fêtes cette nuit. <br>Veille à ce que la reine ne s’offre pas à sa vue ; <br>car Obéron est dans une rage épouvantable, <br>parce qu’elle a pour page <br>un aimable enfant volé à un roi de l’Inde. <br>Elle n’a jamais eu un plus charmant captif ; <br>et Obéron jaloux voudrait faire de l’enfant <br>un chevalier de sa suite, pour parcourir les forêts sauvages. <br>Mais elle retient de force l’enfant bien-aimé, <br>la couronne de fleurs, et en fait toute sa joie. <br>Chaque fois maintenant qu’ils se rencontrent, au bois, sur le gazon, <br>près d’une limpide fontaine, à la clarté du ciel étoilé, <br>le roi et la reine se querellent : si bien que tous leurs sylphes effrayés <br>se fourrent dans la coupe des glands et s’y cachent.</p>'
+            body: {
+              "value": '<h3>PUCK</h3><p>Eh bien ! esprit, où errez-vous ainsi ?</p><h3>LA FÉE</h3><p>Par la colline, par la vallée, <br>à travers les buissons, à travers les ronces, <br>par les parcs, par les haies, <br>à travers l’eau, à travers le feu, <br>j’erre en tous lieux, <br>plus rapide que la sphère de la lune. <br>Je sers la reine des fées, <br>et j’humecte les cercles qu’elle trace sur le gazon. <br>Les primevères les plus hautes sont ses pensionnaires. <br>Vous voyez des taches sur leurs robes d’or : <br>ce sont les rubis, les bijoux de la fée, <br>taches de rousseur d’où s’exhale leur senteur. <br>Il faut maintenant que j’aille chercher des gouttes de rosée, <br>pour suspendre une perle à chaque oreille d’ours. <br>Adieu, toi, bouffon des esprits, je vais partir. <br>Notre reine et tous ses elfes viendront ici tout à l’heure.</p>'
+            }
           }
         }
       ]

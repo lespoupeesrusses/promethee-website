@@ -9,9 +9,13 @@
     <p><strong>Title</strong> <%= @page.promethee_data_page_title %></p>
     <p><strong>Description</strong> <%= @page.promethee_data_page_description %></p>
   </div>
-  <div class="col-md-8">
+  <div class="col-md-4">
     <h2>Searchable</h2>
     <%= @page.promethee_data_searchable %>
+  </div>
+  <div class="col-md-4">
+    <h2>Data</h2>
+    <pre><%= JSON.pretty_generate @page.data %></pre>
   </div>
 </div>
 <hr>
